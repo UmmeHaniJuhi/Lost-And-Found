@@ -102,7 +102,7 @@
         </div>
 
         <div class="home-page-counter mb-5">
-            <h2><strong>150</strong></h2>
+            <h2><strong>156</strong></h2>
             <p>People found their lost item</p>
         </div>
     </div>
