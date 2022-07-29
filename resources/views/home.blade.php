@@ -85,6 +85,7 @@
                 <div class="d-flex mt-5 w-50">
                     <input name="search_text" type="search" class="form-control" placeholder="Enter text to seach"
                         required>
+               <!-- -->  
                     <button type="submit" class="ml-4 btn btn-primary">Search</button>
                 </div>
 
