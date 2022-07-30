@@ -85,7 +85,6 @@
                 <div class="d-flex mt-5 w-50">
                     <input name="search_text" type="search" class="form-control" placeholder="Enter text to seach"
                         required>
-               <!-- -->  
                     <button type="submit" class="ml-4 btn btn-primary">Search</button>
                 </div>
 
@@ -97,8 +96,12 @@
 
         <div class="d-flex justify-content-center w-100">
             <div class="d-flex justify-content-around w-50 row-2">
-                <button class="btn btn-success px-5 py-3">I've Lost Something </button>
-                <button class="btn btn-success px-5 py-3">I've Found Something</button>
+                {{-- <button class="btn btn-success px-5 py-3">I've Lost Something </button> --}}
+                {{-- <button class="btn btn-success px-5 py-3">I've Found Something</button> --}}
+                <a class="btn btn-success px-5 py-3" href="/create_post" role="button">I've Lost Something</a>
+                
+                <a class="btn btn-success px-5 py-3" href="/create_post" role="button">I've Found Something</a>
+
             </div>
         </div>
 
@@ -117,10 +120,10 @@
                 </script> | Lost & Found | All Rights Reserved
             </p>
             <div class="footer-links d-flex justify-content-around container mt-5">
-                <a href="">About Us</a>
-                <a href="">Terms & Conditions</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Contact Us</a>
+                <a href="/about">About Us</a>
+                <a href="/toc">Terms & Conditions</a>
+                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/contact">Contact Us</a>
             </div>
         </div>
     </footer>
