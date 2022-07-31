@@ -142,29 +142,5 @@ class formController extends Controller
         dd('Delete');
     }
 
-    /*
-    public function sourceCode(){
-        Students s1 = new Student();
-        Students s2 = new Student();
-        Students s3 = new Student();
-        Students s4 = new Student();
-        Students arr = [s1, s2, s3, s4];
-        Students sObj = s1;
-        
-        public static int studentID = 4;
-        Students s1 = new Student();
 
-        Students::studentID();
-        $user = DB::table('users')->where('id',  '11482')->first();
-        $order = DB::table('orders')->where('userID', '11482')->first();
-        if($user.productID === $order.productID){
-            //
-        }
-
-        DB::table('users')->insert([
-            'email' => 'kayla@example.com',
-            'votes' => 0
-        ]);
-    }
-    */
 }

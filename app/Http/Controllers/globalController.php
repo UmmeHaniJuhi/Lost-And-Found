@@ -22,5 +22,19 @@ class globalController extends Controller
         return view('viewPosts');
     }
 
+
+
+
+
+    // public function load_homePage()
+    // {
+    //     $counter['counter'] = DB::table('posts')->where('status', 'Active')->count();
+    //     return view('home', $counter);
+    // }
+
     
+
+
+
+
 }

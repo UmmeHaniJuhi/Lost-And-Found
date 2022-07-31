@@ -106,8 +106,8 @@
         </div>
 
         <div class="home-page-counter mb-5">
-            <h2><strong>156</strong></h2>
-            <p>People found their lost item</p>
+            <h2><strong id="count"></strong></h2>
+          <h4>People found their lost items</h4>
         </div>
     </div>
     <br>
@@ -127,6 +127,25 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script>
+        function animatePostsCounter(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        animatePostsCounter(document.getElementById("count"), 0, {{json_encode(50)}}, 1200);
+    </script>
 
 
 </body>
