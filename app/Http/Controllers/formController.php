@@ -80,7 +80,7 @@ class formController extends Controller
     public function searchItem(Request $req)
     {
         //dd($req);
-        $result = DB::table('posts')->where('catagory', $req->catagory)
+        $result = DB::table('posts')->where('category', $req->catagory)
             ->where('location', $req->location)->get();
 
         $search_text = explode(' ', $req->search_text);
@@ -96,7 +96,7 @@ class formController extends Controller
                         $count++;
                     }
                 }
-                if($max < $count){
+                if ($max < $count) {
                     $max = $count;
                 }
             }
@@ -117,7 +117,7 @@ class formController extends Controller
                 }
             }
         }
-        
+
         dd($list);
     }
 
@@ -141,6 +141,4 @@ class formController extends Controller
     {
         dd('Delete');
     }
-
-
 }
