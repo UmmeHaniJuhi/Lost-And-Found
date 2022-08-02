@@ -63,10 +63,10 @@
             @csrf
             <div class="d-flex justify-content-around row-1">
                 <div class="w-50 d-flex justify-content-center">
-                    <select name="catagory" class="form-select mt-5" aria-label="Default select example" required>
-                        <option value="">Catagory</option>
+                    <select name="category" class="form-select mt-5" aria-label="Default select example" required>
+                        <option value="">Category</option>
                         <option value="Electronics">Electronics</option>
-                        <option value="Pets">Pets & Animals</option>
+                        <option value="Pets">Pet & Animals</option>
                         <option value="Documents">Documents</option>
                     </select>
                     &nbsp;
