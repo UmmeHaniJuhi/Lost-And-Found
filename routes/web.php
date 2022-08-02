@@ -42,21 +42,32 @@ Route::get('/register', function () {
 })->name('register');
 */
 
-
+//forms 
 Route::post('/form', [formController::class, 'formLoad'])->name("loadForm");
 Route::post('/search', [formController::class, 'searchItem'])->name("search");
 
-
+//test
 Route::get('/dashboard/{apple}/{apple2}/{apple3}', [formController::class, 'getApple'])->name("appleRoute");
 
-
-
-
+//global
 Route::get('/', [globalController::class, 'load_homePage'])->name("homePage");
 Route::get('/search_results', [globalController::class, 'load_searchResults'])->name("searchResults");
 Route::get('/view_posts', [globalController::class, 'load_viewPosts'])->name("viewPosts");
 
+//user
 Route::get('/create_post', [userController::class, 'load_createPost'])->name("createPost_UI");
 Route::get('/user_dashboard', [userController::class, 'load_userDashboard'])->name("user_Dashboard");
 
+//admin
 Route::get('/admin_dashboard', [adminController::class, 'load_adminDashboard'])->name("admin_Dashboard");
+
+//footer
+Route::get('/about', [globalController::class, 'load_aboutUs'])->name("load_aboutUs");
+Route::get('/contact', [globalController::class, 'load_contactUs'])->name("contactUs");
+Route::get('/privacy-policy', [globalController::class, 'load_privacyPolicy'])->name("privacyPolicy");
+Route::get('/contact', [globalController::class, 'load_contactUs'])->name("contactUs");
+Route::get('/toc', [globalController::class, 'load_toc'])->name("toc");
+
+
+
+
