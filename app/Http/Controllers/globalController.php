@@ -22,6 +22,27 @@ class globalController extends Controller
         return view('viewPosts');
     }
 
+    //footer pages
+    public function load_aboutUs()
+    {
+        return view('footer.aboutUs');
+    }
+
+    public function load_contactUs()
+    {
+        return view('footer.contactUs');
+    }
+
+    public function load_privacyPolicy()
+    {
+        return view('footer.privacyPolicy');
+    }
+
+    public function load_toc()
+    {
+        return view('footer.toc');
+    }
+
 
 
 
