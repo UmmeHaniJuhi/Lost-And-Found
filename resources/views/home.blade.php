@@ -144,7 +144,7 @@
             window.requestAnimationFrame(step);
         }
 
-        animatePostsCounter(document.getElementById("count"), 0, {{json_encode(56)}}, 1200);
+        animatePostsCounter(document.getElementById("count"), 0, {{json_encode(59)}}, 1200);
     </script>
 
 
