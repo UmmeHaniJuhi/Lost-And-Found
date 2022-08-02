@@ -3,7 +3,7 @@
 
  
 :root {
-    /* bg color*/
+    
     --primary-color: #FD4766;
     --secondary-color:#09142e;
     --bg-dark-blue:#030c21;
@@ -12,7 +12,7 @@
     --gradient-color:linear-gradient(to top left, #ff3399 0%, #3366ff 100%);
     --gradient-text:linear-gradient(to top left, #ff3399 0%, #3366ff 100%);
 
-    /*text */
+    
     --primary-font:'Poppin',sans-serif;
     --primary-text: #FD4766;
     --text-gray:#d3d9f5bf;
@@ -148,18 +148,6 @@ button{
 
 
 
-/*services*/
-.services_wrapper .card{
-    background-color: var(--bg-dark-blue);
-    cursor: pointer;
-    transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
-    box-shadow:0.65s cubic-bezier(0.05, 0.2, 0.1, 1) ;
-}
-.services_wrapper .card:hover{
-    box-shadow: 0px 2px 70px 0 rgb(253  71  102 /5%);
-    
-    transform: translateY(-7px);
-}
 
 
 
