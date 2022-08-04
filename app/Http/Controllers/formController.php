@@ -15,7 +15,7 @@ class formController extends Controller
 
         $arr['first'] = ['e' => $req->email, 'n' => (int)$req->num, 'indexName' => 3434];
 
-        $arr['second'] = ['e' => "Ahnaf@asdasd.com", 'n' => 999];
+        $arr['second'] = ['e' => "azwadbhuiyan@gmail.com", 'n' => 999];
 
         $this->validate($req, [
             'email' => 'required|max:255',
@@ -46,7 +46,7 @@ class formController extends Controller
     public function login(Request $req)
     {
         // dd($req);
-        if ($req->email === "ahnaf@something.com" && $req->password === "123") {
+        if ($req->email === "azwad@something.com" && $req->password === "123") {
 
             session()->put('user', $req->email);
             return redirect()->route('home');
