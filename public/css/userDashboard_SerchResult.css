@@ -34,7 +34,7 @@ body{
 :root {
     /* bg color*/
     --primary-color: #0048ff;
-    --primary2-color: #030929;
+    --primary2-color: #ffffff;
     --secondary-color:#060117;
     --bg-dark-blue:#030c21;
     --bg-whit:#fff;
@@ -47,6 +47,7 @@ body{
     --primary-text: #FD4766;
     --text-gr1:#d3d9f5bf;
     --text-white:#fff;
+    --text-black:rgb(0, 0, 0);
     
 }
 
@@ -85,8 +86,8 @@ body{
     padding: 2px 27px;
     background-color: transparent;
     border:2px solid var(--gray-color) ;
-    color: var(--text-gray);
-    font-weight: 500;
+    color: var(--text-black);
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -95,7 +96,7 @@ body{
 }
 .main-btn:hover{
 
-    background-color: var(--primary2-color);
+    background-color: var(--bg-dark-blue);
     border-color:#FD4766 ;
     color: var(--text-white);
 
@@ -108,8 +109,8 @@ body{
     padding: 2px 27px;
     background-color: transparent;
     border:2px solid var(--gray-color) ;
-    color: var(--text-gray);
-    font-weight: 500;
+    color: var(--primary-text);
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -157,39 +158,80 @@ body{
 
 }
 
-
-
-
-
-
-/*.right_section .card_container{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+.cardDiv{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
-.right_section .card_container .img{
+.cardDiv2{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
 
-    width: fit-content;
-    height: fit-content;
- 
+
+/**/
+.section1{
+   
+    background-color: #030929;
+}
+/**/
+
+h1{
+    font-size: 54px;
+    line-height: 68px;
+    font-weight: 800;
+    color: var(--text-black);
+    margin-bottom: 20px;
+}
+h1 span{
+    color: var(--primary-color);
+    
+}
+h2{
+    font-size: 55px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: 15px;
+
+}
+h4{
+    color: var(--text-black);    
+    letter-spacing: 1px;
+    font-weight: 700; 
+
+}
+h5{
+    color: var(--text-black);    
+    letter-spacing: 1px;
+    font-weight: 700; 
+}
+
+h6{
+
+    font-weight: 500;  
+    display: block;
+    color: var(--text-black);
+    
+
+}
+p{
+    color: var(--text-black);
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.h5_2{
+    color:var(--primary-text);
+    letter-spacing: 1px;
+    font-weight: 700; 
 }
 
 
 
 
-
-
-
-.left_section .card .img{
-
-    width: fit-content;
-   height: fit-content;
-
-}
-*/
 
 
 
