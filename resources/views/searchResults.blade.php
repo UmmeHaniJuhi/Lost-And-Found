@@ -1,5 +1,3 @@
-<!--<h1>Search Results</h1>-->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +14,7 @@
 <body>
  
  
-    <section>
+    <section class="section1">
         <div  class="row">
 
            <!--  left_section  navbar-light bg-light -->
@@ -39,7 +37,7 @@
 
 
 
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
                         <div class="row g-0">
                           <div class="col-md-4">
                             <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
@@ -65,35 +63,9 @@
 
 
 
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
-                        <div class="row g-0">
-                          <div class="col-md-4">
-                            <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                              <div class="row">
-                                <div class="col-7 col-sm-4">
-                                  <h5 class="card-title lh-base">Card title</h5>
-                                  <h6 class="text-opacity-70">Location: Dhaka</h6>                                  
-                                </div>
-                                <div class="col-5  col-sm-8">
-                                  <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
-                                </div>
-                              </div> 
-                              <p class="card-text   lh-sm  text-wrap"> Description: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      
 
-                             
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-
-
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
                         <div class="row g-0">
                           <div class="col-md-4">
                             <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
@@ -121,7 +93,9 @@
 
 
 
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
+
+
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
                         <div class="row g-0">
                           <div class="col-md-4">
                             <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
@@ -149,7 +123,10 @@
 
 
 
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
+
+
+
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
                         <div class="row g-0">
                           <div class="col-md-4">
                             <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
@@ -176,7 +153,9 @@
 
 
 
-                      <div class="card text-white bg-primary mb-3 m-4 " style="max-width: fit-content; margin: 12px;  ">
+
+
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
                         <div class="row g-0">
                           <div class="col-md-4">
                             <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
@@ -203,7 +182,30 @@
 
 
 
-                     
+
+                      <div class="card text-white bg-light mb-3 m-4 cardDiv  " style="max-width: fit-content; margin: 12px;  ">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="col-7 col-sm-4">
+                                  <h5 class="card-title lh-base">Card title</h5>
+                                  <h6 class="text-opacity-70">Location: Dhaka</h6>                                  
+                                </div>
+                                <div class="col-5  col-sm-8">
+                                  <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
+                                </div>
+                              </div> 
+                              <p class="card-text   lh-sm  text-wrap"> Description: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
 
 
@@ -233,7 +235,7 @@
 
         
 
-        <div class="container col-lg-4   order-1 order-sm-2   order-md-2 or ">
+        <div class="container col-lg-4   order-1 order-sm-2   order-md-2  ">
 
 
             <nav class="navbar navbar-dark bg-danger  ">
@@ -254,12 +256,12 @@
                     
 
 
-                    <div class="card text-white bg-danger m-3 " style="width: fit-content; margin: 15px; ">
+                    <div class="card text-white bg-light m-3 cardDiv2 " style="width: fit-content; margin: 15px; ">
                       <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <div class="row">
                           <div class="col-7 col-sm-4">
-                            <h5 class="card-title lh-base">Card title</h5>
+                            <h5 class="card-title lh-base h5_2 ">Card title</h5>
                             <h6 class="text-opacity-70">Location: Dhaka</h6>
                             
                           </div>
@@ -267,7 +269,7 @@
                             <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
                           </div>
                         </div> 
-                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content up the bulk of the card's content.</p>
                         
                       </div>
                     </div>
@@ -278,12 +280,12 @@
                     
                      
 
-                    <div class="card text-white bg-danger m-3 " style="width: fit-content; margin: 15px; ">
+                    <div class="card text-white bg-light m-3 cardDiv2 " style="width: fit-content; margin: 15px; ">
                       <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <div class="row">
                           <div class="col-7 col-sm-4">
-                            <h5 class="card-title lh-base">Card title</h5>
+                            <h5 class="card-title lh-base h5_2 ">Card title</h5>
                             <h6 class="text-opacity-70">Location: Dhaka</h6>
                             
                           </div>
@@ -291,7 +293,7 @@
                             <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
                           </div>
                         </div> 
-                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content up the bulk of the card's content.</p>
                         
                       </div>
                     </div>
@@ -299,12 +301,13 @@
 
 
 
-                    <div class="card text-white bg-danger m-3 " style="width: fit-content; margin: 15px; ">
+
+                    <div class="card text-white bg-light m-3 cardDiv2 " style="width: fit-content; margin: 15px; ">
                       <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <div class="row">
                           <div class="col-7 col-sm-4">
-                            <h5 class="card-title lh-base">Card title</h5>
+                            <h5 class="card-title lh-base h5_2 ">Card title</h5>
                             <h6 class="text-opacity-70">Location: Dhaka</h6>
                             
                           </div>
@@ -312,19 +315,21 @@
                             <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
                           </div>
                         </div> 
-                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content up the bulk of the card's content.</p>
                         
                       </div>
                     </div>
 
 
 
-                    <div class="card text-white bg-danger m-3 " style="width: fit-content; margin: 15px; ">
+
+
+                    <div class="card text-white bg-light m-3 cardDiv2 " style="width: fit-content; margin: 15px; ">
                       <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <div class="row">
                           <div class="col-7 col-sm-4">
-                            <h5 class="card-title lh-base">Card title</h5>
+                            <h5 class="card-title lh-base h5_2 ">Card title</h5>
                             <h6 class="text-opacity-70">Location: Dhaka</h6>
                             
                           </div>
@@ -332,13 +337,30 @@
                             <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
                           </div>
                         </div> 
-                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content up the bulk of the card's content.</p>
                         
                       </div>
                     </div>
 
 
 
+                    <div class="card text-white bg-light m-3 cardDiv2 " style="width: fit-content; margin: 15px; ">
+                      <img src="https://t3.ftcdn.net/jpg/02/72/40/44/360_F_272404412_MD9Qnk52bpTk9BEhpq2ZofYupyF8UWbg.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7 col-sm-4">
+                            <h5 class="card-title lh-base h5_2 ">Card title</h5>
+                            <h6 class="text-opacity-70">Location: Dhaka</h6>
+                            
+                          </div>
+                          <div class="col-5  col-sm-8">
+                            <p class="card-text d-flex justify-content-end"><small class="text-muted">01/09/2022</small></p>
+                          </div>
+                        </div> 
+                        <p class="card-text lh-sm">Some quick example text to build on the card title and make up the bulk of the card's content up the bulk of the card's content.</p>
+                        
+                      </div>
+                    </div>
 
 
                     <!-- new -->
