@@ -42,7 +42,7 @@
 
             <div class="d-flex navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/user_dashboard">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Urgent</a>
@@ -85,7 +85,7 @@
                 <div class="d-flex mt-5 w-50">
                     <input name="search_text" type="search" class="form-control" placeholder="Enter text to seach"
                         required>
-                    <button type="submit" class="ml-4 btn btn-primary">Search</button>
+                    <button  type="submit" class="ml-4 btn btn-primary">Search</button>
                 </div>
 
             </div>
