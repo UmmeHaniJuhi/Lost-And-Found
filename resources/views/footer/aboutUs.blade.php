@@ -85,7 +85,7 @@
 					<div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+							<p>"I am Umme Hani. ID : 1930330"</p>
 							<h4>Umme Hani</h4>
 							
               <div class="media-icons">
