@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik%3Awght%40300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto%3Awght%40100%3B300%3B400%3B500%3B700%3B900&display=swap);
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*background-color*/
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --bg-white:#fff;
+    --bg-light: #faf8ff;
+    --bg-black:#000;
+    --bg-gray: #eee;
+    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc , #854fee );
+
+    /* text color */
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white:#fff;
+    --text-black:#000;
+    --text-gray: #777;
+
+    /* font family */
+    --primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Rubik', sans-serif;
+
+}
+
+.property-form-block{
+    margin: 10%;
+    padding: 10px;
+}
+body{
+    font-family: var(--secondary-font);
+    width: 100%;
+    background-color:var(--bg-white);
+    background-repeat: repeat;
+    padding: 0px;
+}
+
+.carousel-item{
+    height: 40rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 2rem;
+
+}
+
+
+h1{
+    font-size: 4.375rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: 1.25rem;
+    font-family: var(--primary-font);
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+    font-weight: 500;
+    color: var(--text-black);
+    margin-bottom: 1.5625rem;
+    font-family: var(--primary-font);
+}
+
+h3{
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: .9375rem;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-black);
+    margin-bottom: 2.1875rem;
+}
+
+p{
+    color:var(--text-gray);
+    font-size: .9375rem;
+    line-height: 1.625rem;
+    font-weight: 300;
+}
+
+.footer{
+    height: 150px;
+}
+
+.footer-links{
+    color: rgb(216, 216, 216);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-links>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links>a:hover, .footer-links>a:active{
+    color: rgb(161, 161, 161);
+}
+
+@media only screen and (max-width: 630px) {
+    .row-1{
+        flex-direction: column;
+    }
+    .row-1>div{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: auto !important;
+    }
+
+    .row-2>button{
+         padding: 10px 30px !important;
+         margin: 10px;
+    }
+
+    .footer{
+        width: 104%;
+        height: auto;
+    }
+
+    .footer-links{
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width: 950px) {
+    .row-2>button{
+         padding: 10px 50px !important;
+         margin: 30px;
+    }
+  }
+
+  @media(max-width: 1199.5px){
+    h1{
+        font-size: 3.75rem;
+    }
+    h2{
+        font-size: 2.1875rem;
+    }
+    h3{
+        font-size: 1.875rem;
+        line-height: 2.68rem;
+    }
+    h5{
+        font-size: 1.0625rem;
+    }
+    .interest-wrapper .interest-details{
+        top: .3125rem;
+        left: .3125rem;
+        right: .3125rem;
+        bottom: .3125rem;
+    }
+
+}
+
+@media(max-width: 991px){
+  .header-scrolled{
+      height: auto;
+  }
+  .headerwrapper .navbar-collapse{
+      margin-top: -.125rem;
+  }
+  .headerwrapper .menu-navbar-nav{
+      text-align: center;
+      background-color: var(--bg-white);
+      padding-bottom: .9375;
+  }
+  .headerwrapper .nav-item .nav-link{
+      margin-top: .93rem;
+  }
+
+}
+
+@media(max-width: 767px){
+    h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.875rem;
+        line-height: 2.37rem;
+    }
+    h3{
+        font-size: 1.8562rem;
+        line-height: 2.187rem;
+    }
+    
+    
+
+}
+
+@media(max-width: 575px){
+    .interest-wrapper .interest-details{
+        top: 2.1875rem;
+        left: 2.1875rem;
+        right: 2.1875rem;
+        bottom: 2.1875rem;
+    }
+}
