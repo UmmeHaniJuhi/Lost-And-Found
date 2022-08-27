@@ -114,7 +114,7 @@
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2017/10/07/15/27/wolf-2826741_960_720.jpg" alt=""></div>
 						<div class="content">
 							<span class="rating-star"><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></span>
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+							<p>"I am Md.Yeard Morshed"</p>
 							<h4>Md.Yeard Morshed</h4>
 							
               <div class="media-icons">
