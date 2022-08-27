@@ -99,7 +99,7 @@
           <div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2014/05/11/13/39/bird-341898_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+							<p>"I am Islam Bin Mursalin"</p>
 							<h4>Islam Bin Mursalin</h4>
 							
               <div class="media-icons">
