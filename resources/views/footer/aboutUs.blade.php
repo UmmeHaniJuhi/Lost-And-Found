@@ -57,7 +57,7 @@
 					<div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+							<p>"I am Abdul Azwad Bhuiyan"<br> "ID : 1820713"</p></p>
 							<h4>Abdul Azwad Bhuiyan</h4>
 							
               <div class="media-icons">
@@ -71,7 +71,7 @@
 					<div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+							<p>"I am Farhan Noor Dehand"<br> "ID : 1920269"</p></p>
 							<h4>Farhan Noor Dehand</h4>
 							
               <div class="media-icons">
@@ -85,7 +85,7 @@
 					<div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"I am Umme Hani. ID : 1930330"</p>
+							<p>"I am Umme Hani"<br> "ID : 1930330"</p>
 							<h4>Umme Hani</h4>
 							
               <div class="media-icons">
@@ -99,7 +99,7 @@
           <div class="single-box">
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2014/05/11/13/39/bird-341898_960_720.jpg" alt=""></div>
 						<div class="content">
-							<p>"I am Islam Bin Mursalin"</p>
+							<p>"I am Islam Bin Mursalin"<br> "ID : 2022372"</p></p>
 							<h4>Islam Bin Mursalin</h4>
 							
               <div class="media-icons">
@@ -114,7 +114,7 @@
 						<div class="img-area"><img src="https://cdn.pixabay.com/photo/2017/10/07/15/27/wolf-2826741_960_720.jpg" alt=""></div>
 						<div class="content">
 							<span class="rating-star"><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></span>
-							<p>"I am Md.Yeard Morshed"</p>
+							<p>"I am Md.Yeard Morshed"<br> "ID : 2022729"</p></p>
 							<h4>Md.Yeard Morshed</h4>
 							
               <div class="media-icons">
